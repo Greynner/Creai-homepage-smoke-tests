@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 import { HomePage } from '../../pages/home.page';
 
 test.describe('Creai homepage mobile smoke tests', () => {
-  test('keeps key elements visible on an iPhone X viewport', async ({ page }) => {
+  test('keeps key elements visible on a mobile viewport', async ({ page }) => {
     const homePage = new HomePage(page);
     await homePage.goto();
 

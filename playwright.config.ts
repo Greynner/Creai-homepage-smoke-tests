@@ -45,9 +45,14 @@ export default defineConfig({
       use: { ...devices['Desktop Safari'] },
     },
     {
-      name: 'frontend-mobile',
+      name: 'frontend-mobile-iphone',
       testMatch: /tests\/mobile\/.*\.spec\.ts/,
       use: { ...devices['iPhone X'], browserName: 'chromium' },
+    },
+    {
+      name: 'frontend-mobile-android',
+      testMatch: /tests\/mobile\/.*\.spec\.ts/,
+      use: { ...devices['Pixel 5'], browserName: 'chromium' },
     },
     {
       name: 'passmark-ai',

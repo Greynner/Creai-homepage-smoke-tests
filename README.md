@@ -112,7 +112,7 @@ This is the recommended suite for day-to-day maintenance.
 - The contact CTA navigates to `/contact`.
 - The `Get started` CTA group exposes the contact action.
 - Contact form accepts smoke test data without submitting a real lead.
-- iPhone X viewport keeps key elements visible.
+- iPhone X and Android Pixel viewports keep key elements visible.
 - Mobile menu opens and exposes navigation actions.
 - Main pages load correctly:
   - AI Systems Framework
