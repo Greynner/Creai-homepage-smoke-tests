@@ -35,6 +35,16 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
     {
+      name: 'frontend-firefox',
+      testMatch: /tests\/ui\/.*\.spec\.ts/,
+      use: { ...devices['Desktop Firefox'] },
+    },
+    {
+      name: 'frontend-webkit',
+      testMatch: /tests\/ui\/.*\.spec\.ts/,
+      use: { ...devices['Desktop Safari'] },
+    },
+    {
       name: 'frontend-mobile',
       testMatch: /tests\/mobile\/.*\.spec\.ts/,
       use: { ...devices['iPhone X'], browserName: 'chromium' },

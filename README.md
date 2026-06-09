@@ -105,7 +105,7 @@ Frontend tests use Page Object Model classes from `src/e2e-tests/pages` to encap
 
 This is the recommended suite for day-to-day maintenance.
 
-- Homepage loads in Chromium.
+- Homepage loads in Chromium, Firefox and WebKit/Safari.
 - Browser console has no errors.
 - Logo, CTA and key sections are visible.
 - The menu navigates to a service page.
