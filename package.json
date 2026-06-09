@@ -1,0 +1,25 @@
+{
+  "name": "creai-homepage-smoke-tests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Playwright + TypeScript smoke tests for creai.mx homepage, runnable with Bun.",
+  "scripts": {
+    "test": "bunx playwright test",
+    "test:integration": "bunx playwright test src/e2e-tests/tests/integration",
+    "test:frontend": "bunx playwright test src/e2e-tests/tests/ui src/e2e-tests/tests/mobile",
+    "test:passmark": "RUN_PASSMARK=true bunx playwright test src/e2e-tests/tests/ai/homepage.passmark.spec.ts",
+    "test:headed": "bunx playwright test --headed",
+    "test:ui": "bunx playwright test --ui",
+    "report": "bunx playwright show-report",
+    "lint": "bunx biome check .",
+    "format": "bunx biome check --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.0",
+    "@playwright/test": "^1.52.0",
+    "dotenv": "^17.4.2",
+    "passmark": "^1.0.16",
+    "typescript": "^5.8.3"
+  }
+}
