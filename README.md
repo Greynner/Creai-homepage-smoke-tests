@@ -1,6 +1,6 @@
 # Creai homepage smoke tests
 
-Smoke test automation for the public [creai.mx](https://www.creai.mx) homepage, built with **Playwright + TypeScript** and executed with **Bun**.
+Smoke test automation for the public [creai.mx](https://www.creai.mx) homepage, built with **Playwright + TypeScript** and executed with **Bun**. This repository is intended as a technical test submission.
 
 ## Stack
 
